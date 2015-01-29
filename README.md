@@ -1,4 +1,4 @@
-# Permissive-Kernel-N915T-EDGE  Note this write up is not completed. Will finish up soon. 
+# Permissive-Kernel-N915T-EDGE:  Note this write up is not completed. Will finish up soon. 
 Kernel and background information provided such that you can set kernel to permissive for Note Edge N915T
 
 I compiled this kernel such that it had the option to be set to permissive by following an extremely useful tutorial (Many thanks to the author!)
