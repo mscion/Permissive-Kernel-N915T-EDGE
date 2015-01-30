@@ -1,7 +1,7 @@
-# Permissive-Kernel-N915T-EDGE:  Note this write up is not completed. Will finish up soon. 
+# Permissive-Kernel-N915T-EDGE:  
 Kernel and background information provided such that you can set kernel to permissive for Note Edge N915T
 
-I compiled this kernel such that it had the option to be set to permissive by following an extremely useful tutorial (Many thanks to the author!)
+I compiled this kernel so that it had the option to be set to permissive by following an extremely useful tutorial (Many thanks to the author!)
 
 http://graemehill.ca/compiling-permissive-android-kernel/
 
@@ -32,7 +32,6 @@ to
 
 EXTRA_CFLAGS += -DCONFIG_ALWAYS_ENFORCE=false
 
-When you compile the kernel a zImage is created that you pack back into the kernel
+When you compile the kernel a zImage is created that you pack back into the kernel using the mkboot program. The gramehil
 
 
-The kernel was made into a tar file and I used ODIN 3.07 to replace the current kernel.
