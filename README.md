@@ -26,12 +26,13 @@ The make file is in
 security/selinux/Makefile
 
 Change
+
 EXTRA_CFLAGS += -DCONFIG_ALWAYS_ENFORCE=true
 
 to 
 
 EXTRA_CFLAGS += -DCONFIG_ALWAYS_ENFORCE=false
 
-When you compile the kernel a zImage is created that you pack back into the kernel using the mkboot program. The gramehil
+When you compile the kernel a zImage is created that you pack back into the kernel using the mkboot program. The graemehill tutorial illustrates the major points.
 
 
